@@ -97,25 +97,34 @@
                                             <h2 class="nav-title">Health Packages</h2>
                                             <ul class="nav flex-column">
                                                 <li class="nav-item">
-                                                    <a class="nav-item-link" href="javascript:void(0)">Full Body Wellness Package</a>
+                                                    <a class="nav-item-link" href="{{route('live.pages.packages.diabetic-package')}}">Diabetic Package</a>
                                                 </li>
                                                 <li class="nav-item">
-                                                    <a class="nav-item-link" href="javascript:void(0)">Full Body Master Package</a>
+                                                    <a class="nav-item-link" href="{{route('live.pages.packages.hypertension-package')}}">Hypertension Package</a>
                                                 </li>
                                                 <li class="nav-item">
-                                                    <a class="nav-item-link" href="javascript:void(0)">Senior Citizen Packages</a>
+                                                    <a class="nav-item-link" href="{{route('live.pages.packages.anemia-package')}}">Anemia Package</a>
                                                 </li>
                                                 <li class="nav-item">
-                                                    <a class="nav-item-link" href="javascript:void(0)">Diabetic Package</a>
+                                                    <a class="nav-item-link" href="{{route('live.pages.packages.post-menopausal-package')}}">Post Menopausal Package</a>
                                                 </li>
                                                 <li class="nav-item">
-                                                    <a class="nav-item-link" href="javascript:void(0)">Diabetic Master Package</a>
+                                                    <a class="nav-item-link" href="{{route('live.pages.packages.liver-panel-package')}}">Liver Panel Package</a>
                                                 </li>
                                                 <li class="nav-item">
-                                                    <a class="nav-item-link" href="javascript:void(0)">Arthritis(Joints) Package</a>
+                                                    <a class="nav-item-link" href="{{route('live.pages.packages.kidney-panel-package')}}">Kidney Panel Package</a>
                                                 </li>
                                                 <li class="nav-item">
-                                                    <a class="nav-item-link" href="javascript:void(0)">Cardiac(Heart) Package</a>
+                                                    <a class="nav-item-link" href="{{route('live.pages.packages.thyroid-package')}}">Thyroid Panel Package</a>
+                                                </li>
+                                                <li class="nav-item">
+                                                    <a class="nav-item-link" href="{{route('live.pages.packages.para-thyroid-package')}}">Para-Thyroid Panel Package</a>
+                                                </li>
+                                                <li class="nav-item">
+                                                    <a class="nav-item-link" href="{{route('live.pages.packages.osteoporotic-bone-profile-package')}}">Osteoporotic Bone Profile Package</a>
+                                                </li>
+                                                <li class="nav-item">
+                                                    <a class="nav-item-link" href="{{route('live.pages.packages.fatty-liver-package')}}">Fatty Liver Package</a>
                                                 </li>
                                             </ul>
                                         </div>

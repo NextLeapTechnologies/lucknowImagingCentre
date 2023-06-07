@@ -15,6 +15,19 @@ class LICController extends Controller
     public function leadership(){return view('live.pages.leadership');}
     public function why_us(){return view('live.pages.why-us');}
     public function career(){return view('live.pages.career');}
+
+    /* Packages */
+    public function all_packages(){return view('live.pages.all-packages');}
+    public function hypertension_package(){return view('live.pages.packages.hypertension-package');}
+    public function diabetic_package(){return view('live.pages.packages.diabetic-package');}
+    public function anemia_package(){return view('live.pages.packages.anemia-package');}
+    public function fatty_liver_package(){return view('live.pages.packages.fatty-liver-package');}
+    public function kidney_panel_package(){return view('live.pages.packages.kidney-panel-package');}
+    public function liver_panel_package(){return view('live.pages.packages.liver-panel-package');}
+    public function osteoporotic_bone_profile_package(){return view('live.pages.packages.osteoporotic-bone-profile-package');}
+    public function para_thyroid_package(){return view('live.pages.packages.para-thyroid-package');}
+    public function post_menopausal_package(){return view('live.pages.packages.post-menopausal-package');}
+    public function thyroid_package(){return view('live.pages.packages.thyroid-package');}
     /* Tests */
     public function mri_test(){return view('live.pages.tests.mri-test');}
     public function ctscan_test(){return view('live.pages.tests.ctscan-test');}
