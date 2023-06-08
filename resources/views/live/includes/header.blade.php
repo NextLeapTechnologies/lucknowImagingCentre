@@ -52,13 +52,13 @@
                                                     <a class="nav-item-link" href="{{route('live.pages.tests.ctscan-test')}}">CT SCAN Test</a>
                                                 </li>
                                                 <li class="nav-item">
-                                                    <a class="nav-item-link" href="{{route('live.pages.tests.ctscan-test')}}">Ultrasound Test</a>
+                                                    <a class="nav-item-link" href="{{route('live.pages.tests.ultrasound-test')}}">Ultrasound Test</a>
                                                 </li>
                                                 <li class="nav-item">
-                                                    <a class="nav-item-link" href="javascript:void(0)">Xray & OPG Test</a>
+                                                    <a class="nav-item-link" href="{{route('live.pages.tests.xrays')}}">X-rays</a>
                                                 </li>
                                                 <li class="nav-item">
-                                                    <a class="nav-item-link" href="javascript:void(0)">Laboratory Test</a>
+                                                    <a class="nav-item-link" href="{{route('live.pages.tests.intervention-radiology-test')}}">Intervention Radiology</a>
                                                 </li>
                                             </ul>
                                         </div>
@@ -133,16 +133,13 @@
                                             <h2 class="nav-title">Get Care</h2>
                                             <ul class="nav flex-column">
                                                 <li class="nav-item">
-                                                    <a class="nav-item-link" href="javascript:void(0)">Insurance</a>
+                                                    <a class="nav-item-link" href="{{route('live.pages.insurance')}}">Insurance</a>
                                                 </li>
                                                 <li class="nav-item">
-                                                    <a class="nav-item-link" href="javascript:void(0)">Billing</a>
+                                                    <a class="nav-item-link" href="{{route('live.pages.accreditation')}}">Accreditation</a>
                                                 </li>
                                                 <li class="nav-item">
-                                                    <a class="nav-item-link" href="javascript:void(0)">Locations</a>
-                                                </li>
-                                                <li class="nav-item">
-                                                    <a class="nav-item-link" href="javascript:void(0)">Accreditation</a>
+                                                    <a class="nav-item-link" href="{{route('live.pages.contact-us')}}">Locations</a>
                                                 </li>
                                                 <li class="nav-item">
                                                     <a class="nav-item-link" href="javascript:void(0)">Mobile App</a>
@@ -181,7 +178,7 @@
 
                     <!-- My Health Menu -->
                     <li class="nav-item">
-                        <a href="#" class="nav-item-link">My Health</a>
+                        <a href="{{route('live.pages.blog.blogs')}}" class="nav-item-link">My Health</a>
                     </li>
                     <!-- Contact Menu -->
                     <li class="nav-item has-dropdown">

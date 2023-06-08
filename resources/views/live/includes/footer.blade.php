@@ -6,7 +6,7 @@
                     <div class="footer-widget-contact">
                         <h6 class="footer-widget-title">Quick Contacts</h6>
                         <p>At Lucknow Imaging Centre, we strive to provide exceptional diagnostic imaging services. Our
-                            commitment to quality and patient care is reflected in everything we do.</p>
+                            commitment to quality &amp; patient care is reflected in everything we do.</p>
                         <ul class="contact-list list-unstyled">
                             <li>
                                 <a href="mailto:provetta@7oroof.com">
@@ -31,26 +31,28 @@
                         <nav>
                             <ul class="list-unstyled">
                                 <li><a href="{{route('live.pages.about-us')}}">About Us</a></li>
-                                <li><a href="{{route('live.pages.leadership')}}" class="nav-item-link">Our Leadership</a></li>
-                                <li><a href="{{route('live.pages.why-us')}}" class="nav-item-link">Why Choose Us</a></li>
+                                <li><a href="{{route('live.pages.leadership')}}" class="nav-item-link">Our
+                                        Leadership</a></li>
+                                <li><a href="{{route('live.pages.why-us')}}" class="nav-item-link">Why Choose Us</a>
+                                </li>
                                 <li><a href="{{route('live.pages.career')}}" class="nav-item-link">Careers</a></li>
-                                <li><a href="#">My Health</a></li>
+                                <li><a href="{{route('live.pages.blog.blogs')}}">My Health</a></li>
                             </ul>
                         </nav>
                     </div><!-- /.footer-widget-content -->
                 </div><!-- /.col-lg-2 -->
                 <div class="col-sm-6 col-md-6 col-lg-2">
                     <div class="footer-widget-nav">
-                        <h6 class="footer-widget-title">Tests & Services</h6>
+                        <h6 class="footer-widget-title">Tests & Packages</h6>
                         <nav>
                             <ul class="list-unstyled">
-                                <li><a href="#">General Diagnostic Tests</a></li>
-                                <li><a href="#">General Diagnostic Tests</a></li>
-                                <li><a href="#">General Diagnostic Tests</a></li>
-                                <li><a href="#">General Diagnostic Tests</a></li>
-                                <li><a href="#">General Diagnostic Tests</a></li>
-                                <li><a href="#">General Diagnostic Tests</a></li>
-                                <li><a href="#">General Diagnostic Tests</a></li>
+                                <li><a class="nav-item-link" href="{{route('live.pages.tests.ctscan-test')}}">CT SCAN Test</a></li>
+                                <li><a class="nav-item-link" href="{{route('live.pages.tests.ultrasound-test')}}">Ultrasound Test</a></li>
+                                <li><a class="nav-item-link" href="{{route('live.pages.tests.xrays')}}">X-rays</a></li>
+                                <li><a class="nav-item-link" href="{{route('live.pages.tests.intervention-radiology-test')}}">Intervention Radiology</a></li>
+                                <li><a class="nav-item-link" href="{{route('live.pages.packages.diabetic-package')}}">Diabetic Package</a></li>
+                                <li> <a class="nav-item-link" href="{{route('live.pages.packages.hypertension-package')}}">Hypertension Package</a></li>
+                                <li> <a class="nav-item-link" href="{{route('live.pages.packages.anemia-package')}}">Anemia Package</a></li>
                             </ul>
                         </nav>
                     </div><!-- /.footer-widget-content -->
@@ -60,13 +62,13 @@
                         <h6 class="footer-widget-title">Links</h6>
                         <nav>
                             <ul class="list-unstyled">
-                                <li> <a href="{{route('live.pages.request-lab-visit')}}" class="nav-item-link">Request lab visit</a></li>
-                                <li><a href="{{route('live.pages.request-home-visit')}}" class="nav-item-link">Request home visit</a></li>
-                                <li> <a href="{{route('live.pages.refer-a-patient')}}" class="nav-item-link">Refer a Patient</a></li>
-                                <li><a href="#">Refund Policy </a></li>
-                                <li><a href="#">Terms & Conditions</a></li>
-                                <li><a href="#">Contact us</a></li>
-                                <li><a href="#">Home</a></li>
+                                <li> <a href="{{route('live.pages.legal.patient-privacy-policy')}}" class="nav-item-link">Patient's Privacy Policy</a></li>
+                                <li><a href="{{route('live.pages.legal.terms-conditions')}}" class="nav-item-link">Terms &amp; Conditions</a></li>
+                                <li> <a href="{{route('live.pages.legal.payment-terms-conditions')}}" class="nav-item-link">Payment Terms &amp; Conditions</a></li>
+                                <li><a href="{{route('live.pages.legal.refund-policy')}}">Refund Policy </a></li>
+                                <li><a href="{{route('live.pages.legal.cancellation-policy')}}">Cancelation Policy</a></li>
+                                <li><a href="{{route('live.pages.contact-us')}}">Contact us</a></li>
+                                <li><a href="{{route('live.index')}}">Home</a></li>
                             </ul>
                         </nav>
                     </div><!-- /.footer-widget-content -->
@@ -97,25 +99,32 @@
             <div class="row align-items-center">
                 <div class="col-12 d-flex flex-wrap">
                     <ul class="social-icons list-unstyled mb-0 mr-50">
-                        <li><a href="https://www.facebook.com/lucknowimagingcentre" target="_blank"><i class="fab fa-facebook-f"></i></a></li>
-                        <li><a href="https://www.instagram.com/lucknowimagingcentre/"><i class="fab fa-instagram"></i></a></li>
+                        <li><a href="https://www.facebook.com/lucknowimagingcentre" target="_blank"><i
+                                    class="fab fa-facebook-f"></i></a></li>
+                        <li><a href="https://www.instagram.com/lucknowimagingcentre/"><i
+                                    class="fab fa-instagram"></i></a></li>
                     </ul><!-- /.social-icons -->
                     <div>
                         <nav>
                             <ul class="list-unstyled footer-copyright-links d-flex flex-wrap mb-0">
-                                <li><a href="javascript:void(0)">Privacy Statement</a></li>
-                                <li><a href="javascript:void(0)">Terms of Use</a></li>
-                                <li><a href="javascript:void(0)">Notice of Nondiscrimination</a></li>
-                                <li><a href="javascript:void(0)">Report a Vulnerability</a></li>
+                                <li><a href="{{route('live.pages.legal.website-privacy-policy')}}">Website Privacy Policy</a></li>
+                                <li><a href="{{route('live.pages.legal.terms-conditions')}}">Website Terms of Use</a></li>
+                                <li><a href="{{route('live.pages.legal.non-discrimination-policy')}}">Notice of Nondiscrimination</a></li>
+                                <li><a href="{{route('live.pages.legal.report-a-vulnerability')}}">Report a Vulnerability</a></li>
                             </ul>
                         </nav>
                         <div class="mt-1">
-                            <span>&copy; 2023 <a class="color-secondary" href="https://lucknowimagingcentre.com/">Lucknow Imaging Centre</a> , All Rights Reserved.</span>
+                            <span>&copy; 2023 <a class="color-secondary"
+                                    href="https://lucknowimagingcentre.com/">Lucknow Imaging Centre</a> , All Rights
+                                Reserved.</span>
                         </div>
                         <div class="mt-1">
-                            <span>&#9888; Disclaimer: The information provided on this website is for general informational purposes only and should not be considered medical advice. Please consult with a healthcare professional for personalized medical guidance.</span>
+                            <span>&#9888; Disclaimer: The information provided on this website is for general
+                                informational purposes only &amp; should not be considered medical advice. Please consult
+                                with a healthcare professional for personalized medical guidance.</span>
                             <span>Website developed by</span>
-                            <a class="color-secondary" href="https://nextleaptechnologies.com/">NextLeap Tech Solutions Private Limited</a>
+                            <a class="color-secondary" href="https://nextleaptechnologies.com/">NextLeap Tech Solutions
+                                Private Limited</a>
                         </div>
                     </div>
                 </div><!-- /.col-lg-6 -->

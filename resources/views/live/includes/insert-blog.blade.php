@@ -97,7 +97,7 @@
         </div><!-- /.row -->
         <div class="row">
             <div class="col-12 text-center">
-                <a href="javascript:void(0)" class="btn btn-link btn-primary">
+                <a href="{{route('live.pages.blog.blogs')}}" class="btn btn-link btn-primary">
                     <span>Check All Blog Posts</span>
                     <i class="icon-arrow-right"></i>
                 </a>
