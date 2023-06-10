@@ -17,7 +17,7 @@
                     </h3>
                     <div class="testimonial-meta d-flex align-items-center">
                         <div class="testimonial-thmb">
-                            <img src="{{asset('dist/images/testimonials/thumbs/1.jpg')}}" alt="thumb">
+                            <img src="{{asset('dist/images/testimonials/thumbs/1.jpg')}}" alt="lucknow-imaging-center-testimonial-by-user-priya">
                         </div>
                         <div>
                             <h4 class="testimonial-meta-title">Priya S.</h4>
@@ -49,7 +49,7 @@
                     </h3>
                     <div class="testimonial-meta d-flex align-items-center">
                         <div class="testimonial-thmb">
-                            <img src="{{asset('dist/images/testimonials/thumbs/1.jpg')}}" alt="thumb">
+                            <img src="{{asset('dist/images/testimonials/thumbs/1.jpg')}}" alt="lucknow-imaging-center-testimonial-by-user-ananya">
                         </div>
                         <div>
                             <h4 class="testimonial-meta-title">Ananya K.</h4>
@@ -67,7 +67,7 @@
                     </h3>
                     <div class="testimonial-meta d-flex align-items-center">
                         <div class="testimonial-thmb">
-                            <img src="{{asset('dist/images/testimonials/thumbs/1.jpg')}}" alt="thumb">
+                            <img src="{{asset('dist/images/testimonials/thumbs/1.jpg')}}" alt="lucknow-imaging-center-testimonial-by-user-sanjay">
                         </div>
                         <div>
                             <h4 class="testimonial-meta-title">Sanjay P.</h4>
@@ -85,7 +85,7 @@
                     </h3>
                     <div class="testimonial-meta d-flex align-items-center">
                         <div class="testimonial-thmb">
-                            <img src="{{asset('dist/images/testimonials/thumbs/1.jpg')}}" alt="thumb">
+                            <img src="{{asset('dist/images/testimonials/thumbs/1.jpg')}}" alt="lucknow-imaging-center-testimonial-by-user-anjali">
                         </div>
                         <div>
                             <h4 class="testimonial-meta-title">Anjali K.</h4>
@@ -102,7 +102,7 @@
                     </h3>
                     <div class="testimonial-meta d-flex align-items-center">
                         <div class="testimonial-thmb">
-                            <img src="{{asset('dist/images/testimonials/thumbs/1.jpg')}}" alt="thumb">
+                            <img src="{{asset('dist/images/testimonials/thumbs/1.jpg')}}" alt="lucknow-imaging-center-testimonial-by-user-nisha">
                         </div>
                         <div>
                             <h4 class="testimonial-meta-title">Nisha M.</h4>
@@ -121,7 +121,7 @@
                     </h3>
                     <div class="testimonial-meta d-flex align-items-center">
                         <div class="testimonial-thmb">
-                            <img src="{{asset('dist/images/testimonials/thumbs/1.jpg')}}" alt="thumb">
+                            <img src="{{asset('dist/images/testimonials/thumbs/1.jpg')}}" alt="lucknow-imaging-center-testimonial-by-user-rajesh">
                         </div>
                         <div>
                             <h4 class="testimonial-meta-title">Rajesh S.</h4>
@@ -137,7 +137,7 @@
                     </h3>
                     <div class="testimonial-meta d-flex align-items-center">
                         <div class="testimonial-thmb">
-                            <img src="{{asset('dist/images/testimonials/thumbs/1.jpg')}}" alt="thumb">
+                            <img src="{{asset('dist/images/testimonials/thumbs/1.jpg')}}" alt="lucknow-imaging-center-testimonial-by-user-meera">
                         </div>
                         <div>
                             <h4 class="testimonial-meta-title">Meera S.</h4>

@@ -67,7 +67,7 @@
                 <div class="product-item">
                     <div class="product-img">
                         <img src="{{asset('dist/images/packages/lucknow-imaging-liver-panel-packages.jpg')}}"
-                             alt="llucknow-imaging-liver-panel-packages" loading="lazy">
+                             alt="lucknow-imaging-liver-panel-packages" loading="lazy">
                     </div>
                     <div class="product-info">
                         <h4 class="product-title"><a href="{{route('live.pages.packages.liver-panel-package')}}">Liver Panel Package</a></h4>

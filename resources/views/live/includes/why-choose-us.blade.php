@@ -1,5 +1,5 @@
 <section class="fancybox-layout4 bg-overlay bg-overlay-primary-gradient pt-30">
-    <div class=" bg-img"><img src="{{asset('dist/images/backgrounds/1.jpg')}}" alt="backgrounds">
+    <div class=" bg-img"><img src="{{asset('dist/images/backgrounds/1.jpg')}}" alt="lucknow-imaging-center-background-image">
     </div>
     <div class="container">
         <div class="row heading-layout2 heading-light mb-60">

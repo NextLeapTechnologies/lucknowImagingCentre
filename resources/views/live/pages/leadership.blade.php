@@ -28,8 +28,8 @@
     <!-- Slider- Start -->
     <section class="page-title-layout1 page-title-light pb-0 bg-overlay bg-parallax">
         <div class="bg-img"><img
-                src="{{asset('dist/images/about/about-lucknow-imaging-and-diagnostic-centre-lucknow.png')}}"
-                alt="background"></div>
+                src="{{asset('dist/images/about/leadership-at-lucknow-imaging-and-diagnostic-centre-lucknow.png')}}"
+                alt="leadership-at-lucknow-imaging-and-diagnostic-centre-lucknow"></div>
         <div class="container">
             <div class="row pb-30">
                 <div class="col-sm-12 col-md-12 col-lg-12 col-xl-12">

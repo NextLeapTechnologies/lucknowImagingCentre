@@ -29,8 +29,8 @@
         <!-- MRI Banner Start-->
         <section class="page-title-layout1 page-title-light pb-0 bg-overlay bg-parallax">
             <div class="bg-img"><img
-                    src="{{asset('dist/images/tests/mri-test-at-lucknow-imaging-diagnostic-centre.png')}}"
-                    alt="mri-test-at-lucknow-imaging-diagnostic-centre"></div>
+                    src="{{asset('dist/images/tests/ultrasound-test-at-lucknow-imaging-diagnostic-centre.png')}}"
+                    alt="ultrasound-test-at-lucknow-imaging-diagnostic-centre"></div>
             <div class="container">
                 <div class="row mb-30">
                     <div class="col-sm-12 col-md-12 col-lg-12 col-xl-5">

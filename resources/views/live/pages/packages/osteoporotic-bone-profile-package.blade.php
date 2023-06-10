@@ -44,7 +44,7 @@
                 <div class="col-sm-12 col-md-12 col-lg-4">
                     <aside class="sidebar has-marign-right sticky-top mb-50">
                         <div class="widget widget-banner bg-overlay bg-overlay-secondary">
-                            <div class="bg-img"><img src="{{asset('dist/images/banners/4.jpg')}}" alt="background">
+                            <div class="bg-img"><img src="{{asset('dist/images/banners/4.jpg')}}" alt="lucknow-imaging-centre-top-diagnostic-centre-background">
                             </div>
                             <div class="widget-content">
                                 <h4 class="widget-title">Skip the Queue , Choose Your Preferred Slot, Plan Ahead</h4>

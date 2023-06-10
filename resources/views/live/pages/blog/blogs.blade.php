@@ -26,7 +26,7 @@
 
       <!-- /.page-title -->
     <section class="page-title-layout2 page-title-light text-center pb-0 bg-overlay bg-parallax">
-        <div class="bg-img"><img src="{{asset('dist/images/tests/mri-test-at-lucknow-imaging-diagnostic-centre.png')}}" alt="background"></div>
+        <div class="bg-img"><img src="{{asset('dist/images/blog/all-blogs-list-lucknow-imaging-centre-myhealth-blogs.png')}}" alt="all-blogs-list-lucknow-imaging-centre-myhealth-blogs"></div>
         <div class="container">
           <div class="row">
             <div class="col-sm-12 col-md-12 col-lg-12 col-xl-6 offset-xl-3">
