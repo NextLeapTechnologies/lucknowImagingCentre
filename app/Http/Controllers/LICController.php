@@ -7,9 +7,33 @@ use Illuminate\Support\Facades\Response;
 use App\Http\Controllers\Controller;
 use App\Providers\RouteServiceProvider;
 use Illuminate\Http\Request;
+use App\Mail\RequestHomeVisit;
+use Illuminate\Support\Facades\Mail;
 
 class LICController extends Controller
 {
+    public function requestHomeVisit(Request $request)
+    {
+        // Validate the form data (add your own validation logic here)
+        $validatedData = $request->validate([
+            'service' => 'required',
+            'location' => 'required',
+            'name' => 'required',
+            'email' => 'required|email',
+            'phone' => 'required',
+            'date' => 'required|date',
+            'time' => 'required',
+            // Add validation rules for other fields
+        ]);
+
+        // Send the email
+        Mail::to('pushkar7767@gmail.com')->send(new RequestHomeVisit($validatedData));
+
+        // Redirect back with success message
+        return back()->with('success', 'Home visit request submitted successfully!');
+    }
+
+
     public function index()
     {
         return view('live.index');

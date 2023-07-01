@@ -13,7 +13,7 @@
                 <ul class="navbar-nav">
                     <!-- Home -->
                     <li class="nav-item ">
-                        <a href="{{route('live.index')}}" class="nav-item-link active">Home</a>
+                        <a href="{{route('live.index')}}" class="nav-item-link">Home</a>
                     </li>
                     <!-- About-us -->
                     <li class="nav-item has-dropdown">
@@ -39,11 +39,10 @@
                         <ul class="dropdown-menu mega-dropdown-menu">
                             <li class="nav-item">
                                 <div class="container">
-
                                     <div class="row">
                                         <!-- Test Row Start-->
                                         <div class="col-sm-12 col-md-2 nav-block">
-                                            <h2 class="nav-title">Tests</h2>
+                                            <h2 class="nav-title">Tests &amp; Services</h2>
                                             <ul class="nav flex-column">
                                                 <li class="nav-item">
                                                     <a class="nav-item-link" href="{{route('live.pages.tests.mri-test')}}">MRI Test</a>
@@ -60,29 +59,8 @@
                                                 <li class="nav-item">
                                                     <a class="nav-item-link" href="{{route('live.pages.tests.intervention-radiology-test')}}">Intervention Radiology</a>
                                                 </li>
-                                            </ul>
-                                        </div>
-                                        <!-- Services Row Start-->
-                                        <div class="col-sm-12 col-md-2 nav-block">
-                                            <h2 class="nav-title">Services</h2>
-                                            <ul class="nav flex-column">
                                                 <li class="nav-item">
-                                                    <a class="nav-item-link" href="javascript:void(0)">MRI SCAN</a>
-                                                </li>
-                                                <li class="nav-item">
-                                                    <a class="nav-item-link" href="javascript:void(0)">CT SCAN</a>
-                                                </li>
-                                                <li class="nav-item">
-                                                    <a class="nav-item-link" href="javascript:void(0)">Ultrasound</a>
-                                                </li>
-                                                <li class="nav-item">
-                                                    <a class="nav-item-link" href="javascript:void(0)">X-Rays</a>
-                                                </li>
-                                                <li class="nav-item">
-                                                    <a class="nav-item-link" href="javascript:void(0)">LAB</a>
-                                                </li>
-                                                <li class="nav-item">
-                                                    <a class="nav-item-link" href="javascript:void(0)">OPD</a>
+                                                    <a class="nav-item-link" href="javascript:void(0)">Pathology</a>
                                                 </li>
                                                 <li class="nav-item">
                                                     <a class="nav-item-link" href="javascript:void(0)">ECHO</a>
@@ -92,6 +70,7 @@
                                                 </li>
                                             </ul>
                                         </div>
+                            
                                         <!-- Packages Row Start-->
                                         <div class="col-sm-12 col-md-2 nav-block">
                                             <h2 class="nav-title">Health Packages</h2>
@@ -147,7 +126,7 @@
                                             </ul>
                                         </div>
                                         <!-- Special Promotion-->
-                                        <div class="col-sm-12 col-md-4 nav-block nav-block-featured bg-secondary">
+                                        <div class="col-sm-12 col-md-6 nav-block nav-block-featured bg-secondary">
                                             <div class="menu-shape"></div>
                                             <div>
                                                 <h2 class="nav-title color-white">Special Mother Days Packages and Discounts </h2>
@@ -188,13 +167,13 @@
                                 <a href="{{route('live.pages.contact-us')}}" class="nav-item-link">Contact Us</a>
                             </li>
                             <li class="nav-item">
-                                <a href="{{route('live.pages.request-lab-visit')}}" class="nav-item-link">Request lab visit</a>
+                                <a href="javascript:void(0)" class="nav-item-link" id="whatsappLabVisit">Request lab visit</a>
                             </li>
                             <li class="nav-item">
-                                <a href="{{route('live.pages.request-home-visit')}}" class="nav-item-link">Request home visit</a>
+                                <a href="javascript:void(0)" class="nav-item-link" id="whatsappHomeVisit">Request home visit</a>
                             </li>
                             <li class="nav-item">
-                                <a href="{{route('live.pages.refer-a-patient')}}" class="nav-item-link">Refer a Patient</a>
+                                <a href=""javascript:void(0)" class="nav-item-link" id="whatsappPatientRefer">Refer a Patient</a>
                             </li>
                         </ul>
                     </li>

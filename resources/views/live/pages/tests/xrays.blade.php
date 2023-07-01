@@ -55,62 +55,38 @@
                     </div><!-- /.col-lg-6 -->
                 </div><!-- /.row -->
                 <div class="row">
-                    <div class="col-sm-12 col-md-6 col-lg-4">
+                    <div class="col-sm-12 col-md-6 col-lg-6">
                         <div class="pricing-widget-layout1 mb-30">
                             <h5 class="pricing-title">X-ray List - 1</h5>
                             <ul class="pricing-list list-unstyled mb-0">
-                                <li><span class="text-danger">XRAY (PER VIEW)</span></li>
-                                <li><span class="text-danger">XRAY 2 VIEW</span></li>
-                                <li><span class="text-danger">XRAY ABDOMEN AP VIEW (ERECT)</span></li>
-                                <li><span class="text-danger">XRAY ANKLE BOTH AP & LATERAL VIEW</span></li>
-                                <li><span class="text-danger">XRAY ANKLE LT AP & LATERAL VIEW</span></li>
-                                <li><span class="text-danger">XRAY ANKLE LT AP VIEW</span></li>
-                                <li><span class="text-danger">XRAY ANKLE LT LATERAL VIEW</span></li>
-                                <li><span class="text-danger">XRAY ANKLE RT AP & LATERAL VIEW</span></li>
-                                <li><span class="text-danger">XRAY ANKLE RT AP VIEW</span></li>
-                                <li><span class="text-danger">XRAY ANKLE RT LATERAL VIEW</span></li>
-                                <li><span class="text-danger">XRAY ARM LT AP & LATERAL VIEW</span></li>
-                                <li><span class="text-danger">XRAY ARM LT AP VIEW</span></li>
-
-                            </ul>
-                        </div>
-                    </div><!-- /.col-lg-4 -->
-                    <div class="col-sm-12 col-md-6 col-lg-4">
-                        <div class="pricing-widget-layout2 mb-30">
-                            <h5 class="pricing-title">X-ray List - 2</h5>
-                            <ul class="pricing-list list-unstyled mb-0">
-
-                                <li><span class="text-danger">XRAY ARM LT LATERAL VIEW</span></li>
-                                <li><span class="text-danger">XRAY ARM RT AP & LATERAL VIEW</span></li>
-                                <li><span class="text-danger">XRAY ARM RT AP VIEW</span></li>
-                                <li><span class="text-danger">XRAY ARM RT LATERAL VIEW</span></li>
+                                <li><span class="text-danger">XRAY ABDOMEN VIEW (ERECT / SUPINE)</span></li>
+                                <li><span class="text-danger">XRAY CHEST PA VIEW</span></li>
+                                <li><span class="text-danger">XRAY CHEST AP VIEW</span></li>
                                 <li><span class="text-danger">XRAY CERVICAL SPINE AP & LATERAL VIEW</span></li>
                                 <li><span class="text-danger">XRAY DORSAL SPINE AP & LATERAL VIEW</span></li>
                                 <li><span class="text-danger">XRAY LUMBOSACRAL SPINE AP & LATERAL VIEW</span></li>
-                                <li><span class="text-danger">XRAY CHEST PA VIEW</span></li>
-                                <li><span class="text-danger">XRAY CHEST AP VIEW</span></li>
-                                <li><span class="text-danger">XRAY ELBOW JOINT LT AP LATERAL</span></li>
-                                <li><span class="text-danger">XRAY ELBOW JOINT RT AP LATERAL</span></li>
-                                <li><span class="text-danger">XRAY HIP JOINT LT AP & LATERAL VIEW</span></li>
+                                <li><span class="text-danger">XRAY PNS (ALL VIEW)</span></li>
+                                <li><span class="text-danger">XRAY SKULL</span></li>
+                                <li><span class="text-danger">XRAY MASTOID</span></li>
+                                <li><span class="text-danger">XRAY ALL EXTREMITIES( ARM, HEAD, THIGH, LEG, FOOT)</span></li>
+
 
                             </ul>
                         </div>
                     </div><!-- /.col-lg-4 -->
-                    <div class="col-sm-12 col-md-6 col-lg-4">
-                        <div class="pricing-widget-layout3 mb-30">
-                            <h5 class="pricing-title">X-ray List - 3</h5>
+                    <div class="col-sm-12 col-md-6 col-lg-6">
+                        <div class="pricing-widget-layout2 mb-30">
+                            <h5 class="pricing-title">X-ray List - 2</h5>
                             <ul class="pricing-list list-unstyled mb-0">
-                                <li><span class="text-danger">XRAY HIP JOINT RT AP & LATERAL VIEW</span></li>
-                                <li><span class="text-danger">XRAY PELVIC AP VIEW</span></li>
-                                <li><span class="text-danger">XRAY PELVIS WITH BOTH HIPS AP VIEW</span></li>
-                                <li><span class="text-danger">XRAY PNS (OM)</span></li>
-                                <li><span class="text-danger">XRAY BARIUM ENEMA</span></li>
-                                <li><span class="text-danger">XRAY BARIUM SWALLOW</span></li>
-                                <li><span class="text-danger">XRAY BMFT</span></li>
-                                <li><span class="text-danger">XRAY FISTULOGRAM / SINOGARM</span></li>
-                                <li><span class="text-danger">XRAY LOOPOGRAM</span></li>
-                                <li><span class="text-danger">XRAY IVP</span></li>
-                                <li><span class="text-danger">XRAY MCU</span></li>
+                                <li><span class="text-danger">XRAY ALL JOINTS( SHOULDER, HIB, ELBOW, KNEE, WRIST, ANKLE)</span></li>
+                                <li><span class="text-danger">BARIUM SWALLOW</span></li>
+                                <li><span class="text-danger">BARIUM MEAL</span></li>
+                                <li><span class="text-danger">(BMFT) BARIUM MEAL FOLLOW THROUGH</span></li>
+                                <li><span class="text-danger">BARIUM ENEMA</span></li>
+                                <li><span class="text-danger">FISTULOGRAM / SINOGARM</span></li>
+                                <li><span class="text-danger">LOOPOGRAM</span></li>
+                                <li><span class="text-danger">IVP</span></li>
+                                <li><span class="text-danger">MCU / RGU</span></li>
                                 <li><span class="text-danger">HSG</span></li>
                             </ul>
                         </div>
@@ -139,6 +115,7 @@
     </div>
 
     @include('live.includes.bottom-scripts')
+    @include('live.includes.twak')
 </body>
 
 </html>

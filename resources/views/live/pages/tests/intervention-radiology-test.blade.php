@@ -75,7 +75,7 @@
                     </div><!-- /.col-lg-4 -->
                     <div class="col-sm-12 col-md-6 col-lg-6">
                         <div class="pricing-widget-layout2 mb-30">
-                            <h5 class="pricing-title">Liver Cancer Treatment</h5>
+                            <h5 class="pricing-title">Cancer Treatment</h5>
                             <ul class="pricing-list list-unstyled mb-0">
                                 <li><span class="text-danger">Transarterial Chemoembolization</span></li>
                                 <li><span class="text-danger">TUMOR ABLATION RFA AND MICROWAVE ABLATION OF TUMOR AND
@@ -111,6 +111,7 @@
     </div>
 
     @include('live.includes.bottom-scripts')
+    @include('live.includes.twak')
 </body>
 
 </html>

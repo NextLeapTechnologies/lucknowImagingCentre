@@ -21,11 +21,10 @@
     <div class="preloader">
         <div class="loading"><span></span><span></span><span></span><span></span></div>
     </div><!-- /.preloader -->
-
+   
     <!-- /.Header Start-->
     @include('live.includes.header')
     <!-- /.Header Ends-->
-
     <!-- /.Slider- Start -->
     @include('live.includes.index-slider')
     <!-- /.Slider- Ends -->
@@ -65,6 +64,7 @@
 </div>
 
 @include('live.includes.bottom-scripts')
+@include('live.includes.twak')
 </body>
 
 </html>

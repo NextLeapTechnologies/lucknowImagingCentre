@@ -92,6 +92,7 @@
 </div>
 
 @include('live.includes.bottom-scripts')
+@include('live.includes.twak')
 </body>
 
 </html>

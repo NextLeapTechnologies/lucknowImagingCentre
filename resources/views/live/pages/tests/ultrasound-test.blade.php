@@ -59,20 +59,16 @@
                         <div class="pricing-widget-layout1 mb-30">
                             <h5 class="pricing-title">Ultrasound Tests List - 1</h5>
                             <ul class="pricing-list list-unstyled mb-0">
-                                <li><span class="text-danger">USG ABDOMENLOWER</span></li>
-                                <li><span class="text-danger">USG ABDOMEN UPPER</span></li>
-                                <li><span class="text-danger">USG WHOLE +HR</span></li>
-                                <li><span class="text-danger">USG ABDOMEN WHOLE</span></li>
-                                <li><span class="text-danger">USG FETAL ECHO</span></li>
-                                <li><span class="text-danger">USG FOLLICULAR STUDY</span></li>
+                                <li><span class="text-danger">USG LOWER ABDOMEN </span></li>
+                                <li><span class="text-danger">USG UPPER ABDOMEN </span></li>
+                                <li><span class="text-danger">HR USG ABDOMEN</span></li>
+                                <li><span class="text-danger">USG WHOLE ABDOMEN </span></li>
                                 <li><span class="text-danger">USG KUB</span></li>
-                                <li><span class="text-danger">USG PELVICS</span></li>
+                                <li><span class="text-danger">USG PELVIS</span></li>
                                 <li><span class="text-danger">TVS NORMAL</span></li>
-                                <li><span class="text-danger">USG NT/ NB</span></li>
+                                <li><span class="text-danger">USG FOLLICULAR STUDY</span></li>
                                 <li><span class="text-danger">USG OBSTETRICS</span></li>
-                                <li><span class="text-danger">USG OBSTETRICS WITH BPP</span></li>
-                                <li><span class="text-danger">USG SONOMAMMOGRAPHY (BOTH BREAST)</span></li>
-                                <li><span class="text-danger">USG SONOMAMMOGRAPHY SINGLE</span></li>
+                                <li><span class="text-danger">USG NT/ NB</span></li>
                                 <li><span class="text-danger">USG TIFFA/ LEVEL II</span></li>
                                 <li><span class="text-danger">USG TIFFA (TWINS)</span></li>
                             </ul>
@@ -82,12 +78,23 @@
                         <div class="pricing-widget-layout2 mb-30">
                             <h5 class="pricing-title">Ultrasound Tests List - 2</h5>
                             <ul class="pricing-list list-unstyled mb-0">
-
-                                <li><span class="text-danger">USG SMALL PART HRUSG/JOINT/CHEST</span></li>
-                                <li><span class="text-danger">USG ECHO CARDIAC</span></li>
                                 <li><span class="text-danger">DOPPLER OBSTETRICS</span></li>
-                                <li><span class="text-danger">DOPPLER OBSTETRICS (USG WITH BPP)</span></li>
-                                <li><span class="text-danger">DOPPLER BILATERAL LIMB ARTERAL AND VENOL</span></li>
+                                <li><span class="text-danger">USG OBSTETRICS WITH BPP</span></li>
+                                <li><span class="text-danger">3D DOPPLER OBSTETRIC</span></li>
+                                <li><span class="text-danger">USG SONOMAMMOGRAPHY (BOTH BREAST)</span></li>
+                                <li><span class="text-danger">USG SONOMAMMOGRAPHY SINGLE</span></li>
+                                <li><span class="text-danger">USG CRANIUM</span></li>
+                                <li><span class="text-danger">USG NECK/ THYROID</span></li>
+                                <li><span class="text-danger">HR USG SMALL PART JOINT/CHEST</span></li>
+                            </ul>
+                        </div>
+                    </div><!-- /.col-lg-4 -->
+                    <div class="col-sm-12 col-md-6 col-lg-4">
+                        <div class="pricing-widget-layout3 mb-30">
+                            <h5 class="pricing-title">Doppler Tests</h5>
+                            <ul class="pricing-list list-unstyled mb-0">
+                                <li><span class="text-danger">DOPPLER SPLENO - PORTAL AXIS</span></li>
+                                <li><span class="text-danger">DOPPLER BILATERAL LIMB ARTERAL AND VENOUS</span></li>
                                 <li><span class="text-danger">DOPPLER BILATERAL ARTERIAL</span></li>
                                 <li><span class="text-danger">DOPPLER BILATERAL VENOUS</span></li>
                                 <li><span class="text-danger">DOPPLER CAROTID</span></li>
@@ -97,27 +104,7 @@
                                 <li><span class="text-danger">DOPPLER SINGLE LOMB ARTERIAL</span></li>
                                 <li><span class="text-danger">DOPPLER SINGLE LIMB ARTERIAL AND VENOUS</span></li>
                                 <li><span class="text-danger">DOPPLER SINGLE LIMB VENOUS</span></li>
-                                <li><span class="text-danger">DOPPLER SMALL PART (HRSG)</span></li>
-                            </ul>
-                        </div>
-                    </div><!-- /.col-lg-4 -->
-                    <div class="col-sm-12 col-md-6 col-lg-4">
-                        <div class="pricing-widget-layout3 mb-30">
-                            <h5 class="pricing-title">Ultrasound Tests List - 3</h5>
-                            <ul class="pricing-list list-unstyled mb-0">
-                                <li><span class="text-danger">DOPPLER SPLENO - PORTAL AXIS</span></li>
-                                <li><span class="text-danger">USG GUIDED BIOPSY PROCEDURE</span></li>
-                                <li><span class="text-danger">USG GUIDED CATHETER PLACEMENT</span></li>
-                                <li><span class="text-danger">USG GUIDED CHARGES FNAC</span></li>
-                                <li><span class="text-danger">USG GUIDED DIAGNOSTIC ASPITATION</span></li>
-                                <li><span class="text-danger">USG GUIDED THERAPEUTIC ASPIRATION</span></li>
-                                <li><span class="text-danger">USG WITHOUT MATERIAL</span></li>
-                                <li><span class="text-danger">3D DOPPLER OBSTETRIC</span></li>
-                                <li><span class="text-danger">USG NECK/ THYROID</span></li>
-                                <li><span class="text-danger">USG PCD WITHOUT MATERIAL</span></li>
-                                <li><span class="text-danger">USG PCD WITH MATERIAL</span></li>
-                                <li><span class="text-danger">USG PCN WITH MATERIAL</span></li>
-                                <li><span class="text-danger">USG WITHOUT MATERIAL</span></li>
+                                <li><span class="text-danger">DOPPLER SMALL PART (HRUSG)</span></li>
                             </ul>
                         </div>
                     </div><!-- /.col-lg-4 -->
@@ -145,6 +132,7 @@
     </div>
 
     @include('live.includes.bottom-scripts')
+    @include('live.includes.twak')
 </body>
 
 </html>

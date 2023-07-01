@@ -29,7 +29,7 @@
         <div class="bg-img"><img src="{{asset('dist/images/packages/kidney-panel-package/kidney-panel-package-header-at-lucknow-imaging-diagnostic-centre.png')}}" alt="kidney-panel-package-header-at-lucknow-imaging-diagnostic-centres"></div>
         <div class="container">
             <div class="row mb-30">
-                <div class="col-sm-12 col-md-12 col-lg-12 col-xl-5">
+                <div class="col-sm-12 col-md-12 col-lg-12 col-xl-8">
                     <h1 class="pagetitle-heading">Kidney Panel Test Package</h1>
                 </div>
             </div>

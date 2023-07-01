@@ -14,6 +14,8 @@ use App\Http\Controllers\LICController;
 |
 */
 
+Route::post('/request-home-visit', 'LICController@requestHomeVisit')->name('request-home-visit');
+
 Route::get('/', [LICController::class, 'index'])->name('live.index');
 Route::get('/about-us', [LICController::class, 'about_us'])->name('live.pages.about-us');
 Route::get('/leadership', [LICController::class, 'leadership'])->name('live.pages.leadership');

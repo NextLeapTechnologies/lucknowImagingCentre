@@ -29,7 +29,7 @@
         <div class="bg-img"><img src="{{asset('dist/images/packages/osteoporotic-bone-profile-package/osteoporotic-bone-profile-package-header-at-lucknow-imaging-diagnostic-centre.png')}}" alt="osteoporotic-bone-profile-package-header-at-lucknow-imaging-diagnostic-centres"></div>
         <div class="container">
             <div class="row mb-30">
-                <div class="col-sm-12 col-md-12 col-lg-12 col-xl-5">
+                <div class="col-sm-12 col-md-12 col-lg-12 col-xl-8">
                     <h1 class="pagetitle-heading">Osteoporotic Bone Profile Package</h1>
                 </div>
             </div>
@@ -84,7 +84,7 @@
                     </div>
                     <div class="widget-plan mb-30">
                         <div class="widget-body">
-                            <h5 class="widget-title">Our Thyroid Test Package includes:</h5>
+                            <h5 class="widget-title">Our Osteoporotic Bone Profile Package includes:</h5>
                             <div class="row">
                                 <div class="col-12 col-md-12">
                                     <div class="pricing-widget-layout2 mb-5">

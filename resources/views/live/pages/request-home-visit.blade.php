@@ -75,7 +75,8 @@
                 <!-- Form -->
                 <div class="col-sm-12 col-md-12 col-lg-8">
                     <div class="contact-panel">
-                        <form class="contact-panel-form" id="homevisitForm">
+                        <form class="contact-panel-form" id="homevisitForm" method="POST" action="/submit-home-visit">
+                            @csrf
                             <div class="row">
                                 <div class="col-sm-12">
                                     <h4 class="contact-panel-title">Request a Home Visit</h4>
@@ -94,7 +95,7 @@
                                 <div class="col-sm-6 col-md-6 col-lg-6">
                                     <div class="form-group">
                                         <label for="service">Select Services</label>
-                                        <select id="service" class="form-control">
+                                        <select id="service" class="form-control" name="service" required>
                                             <option value="1">Services</option>
                                             <option value="2">Test</option>
                                         </select>
@@ -103,7 +104,7 @@
                                 <div class="col-sm-6 col-md-6 col-lg-6">
                                     <div class="form-group">
                                         <label for="location">Location</label>
-                                        <select id="location" class="form-control">
+                                        <select id="location" class="form-control" name="location" required>
                                             <option value="1">Lucknow</option>
                                         </select>
                                     </div>
@@ -111,31 +112,31 @@
                                 <div class="col-sm-6 col-md-6 col-lg-6">
                                     <div class="form-group">
                                         <label for="name">Name (required)</label>
-                                        <input type="text" class="form-control" placeholder="Name" id="name" required>
+                                        <input type="text" class="form-control" placeholder="Name" id="name" name="name" required>
                                     </div>
                                 </div><!-- /.col-lg-6 -->
                                 <div class="col-sm-6 col-md-6 col-lg-6">
                                     <div class="form-group">
                                         <label for="email">Email (required)</label>
-                                        <input type="email" class="form-control" placeholder="Email" id="email">
+                                        <input type="email" class="form-control" placeholder="Email" id="email" name="email">
                                     </div>
                                 </div><!-- /.col-lg-6 -->
                                 <div class="col-sm-4 col-md-4 col-lg-4">
                                     <div class="form-group">
                                         <label for="phone">Phone (required)</label>
-                                        <input type="text" class="form-control" placeholder="Phone" id="phone">
+                                        <input type="text" class="form-control" placeholder="Phone" id="phone" name="phone" required>
                                     </div>
                                 </div><!-- /.col-lg-4 -->
                                 <div class="col-sm-4 col-md-4 col-lg-4">
                                     <div class="form-group form-group-date">
                                         <label for="date">Date (required)</label>
-                                        <input type="date" class="form-control" id="date" required>
+                                        <input type="date" class="form-control" id="date" name="date" required>
                                     </div>
                                 </div><!-- /.col-lg-4 -->
                                 <div class="col-sm-4 col-md-4 col-lg-4">
                                     <div class="form-group form-group-date">
                                         <label for="time">Time (required)</label>
-                                        <input type="time" class="form-control" id="time" required>
+                                        <input type="time" class="form-control" id="time" name="time" required>
                                     </div>
                                 </div><!-- /.col-lg-4 -->
                                 <div class="col-12">
@@ -143,12 +144,12 @@
                                         <label class="mb-20">Special Hours and Access</label>
                                         <div class="d-flex flex-wrap checkbox-controls">
                                             <div class="custom-control custom-checkbox">
-                                                <input type="checkbox" class="custom-control-input" id="customCheck6">
+                                                <input type="checkbox" class="custom-control-input" id="customCheck6" name="special_hours[]" value="open_before_9am">
                                                 <label class="custom-control-label" for="customCheck6"> Open before 9:00
                                                     am</label>
                                             </div>
                                             <div class="custom-control custom-checkbox">
-                                                <input type="checkbox" class="custom-control-input" id="customCheck7">
+                                                <input type="checkbox" class="custom-control-input" id="customCheck7" name="special_hours[]" value="wheelchair_accessible">
                                                 <label class="custom-control-label" for="customCheck7">Wheelchair
                                                     Accessible</label>
                                             </div>
@@ -170,28 +171,27 @@
                                         <label for="address">Street Address</label>
                                         <input type="text" class="form-control mb-10"
                                                placeholder="4/12,Vijayant Khand,Near Kathauta Chauraha,"
-                                               id="address">
+                                               id="address1" name="address1">
                                         <input type="text" class="form-control" placeholder="Gomti Nagar,"
-                                               id="address">
+                                        id="address2" name="address2">
                                     </div>
                                 </div><!-- /.col-lg-12 -->
                                 <div class="col-sm-6 col-md-6 col-lg-6">
                                     <div class="form-group">
                                         <label for="city">City</label>
-                                        <input type="text" class="form-control" placeholder="Lucknow" id="city">
+                                        <input type="text" class="form-control" placeholder="Lucknow" id="city" name="city">
                                     </div>
                                 </div><!-- /.col-lg-6 -->
                                 <div class="col-sm-6 col-md-6 col-lg-6">
                                     <div class="form-group">
                                         <label for="zip">Zip</label>
-                                        <input type="text" class="form-control" placeholder="226010" id="zip">
+                                        <input type="text" class="form-control" placeholder="226010" id="zip" name="zip">
                                     </div>
                                 </div><!-- /.col-lg-6 -->
                                 <div class="col-12">
                                     <div class="form-group">
                                         <label for="details">Additional Details</label>
-                                        <textarea class="form-control" placeholder="Details" id="details"
-                                                  rows="6"></textarea>
+                                        <textarea class="form-control" placeholder="Details" id="details" name="details" rows="6"></textarea>
                                     </div>
                                     <button type="submit" class="btn btn-secondary btn-block btn-xhight">
                                         <span>Confirm Home Visit</span> <i class="icon-arrow-right"></i>
@@ -215,6 +215,7 @@
 </div>
 
 @include('live.includes.bottom-scripts')
+@include('live.includes.twak')
 </body>
 
 </html>

@@ -85,8 +85,8 @@
                             </li>
                         </ul>
                         <div class="d-flex align-items-center">
-                            <a href="{{route('live.pages.request-lab-visit')}}" class="btn btn-primary btn-block">
-                                <span>Request A Lab Visit</span> <i class="icon-arrow-right"></i>
+                            <a href="javascript:void(0)" class="btn btn-primary btn-block" id="whatsappLabVisitFooter">
+                               Request A Lab Visit <i class="icon-arrow-right"></i>
                             </a>
                         </div>
                     </div>
