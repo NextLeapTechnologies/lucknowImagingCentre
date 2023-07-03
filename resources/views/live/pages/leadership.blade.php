@@ -46,7 +46,7 @@
     <!-- Teams Start -->
     <section class="team-layout1 pb-30">
         <div class="container">
-            <div class="row">
+            <div class="row justify-content-center">
                 <!-- Member #1 -->
                 <div class="col-sm-6 col-md-4 col-lg-4">
                     <div class="member">
@@ -86,27 +86,6 @@
                         </div>
                     </div>
                 </div>
-
-                <!-- Member #3 -->
-                <div class="col-sm-6 col-md-4 col-lg-4">
-                    <div class="member">
-                        <div class="member-img">
-                            <img src="{{asset('dist/images/team/3.jpg')}}" alt="member img">
-                        </div>
-                        <div class="member-info d-flex align-items-center justify-content-between">
-                            <div>
-                                <h5 class="member-name">Name Demo</h5>
-                                <p class="member-desc">Vice President</p>
-                            </div>
-                            <ul class="social-icons list-unstyled mb-0">
-                                <li><a href="#"><i class="fab fa-facebook-f"></i></a></li>
-                                <li><a href="#"><i class="fab fa-instagram"></i></a></li>
-                                <li><a href="#"><i class="fab fa-twitter"></i></a></li>
-                            </ul>
-                        </div>
-                    </div>
-                </div>
-
             </div>
         </div>
     </section>

@@ -121,7 +121,18 @@ class LICController extends Controller
     {
         return view('live.pages.tests.intervention-radiology-test');
     }
-
+    public function pathology_test()
+    {
+        return view('live.pages.tests.pathology-test');
+    }
+    public function echo_test()
+    {
+        return view('live.pages.tests.echo-test');
+    }
+    public function ecg_test()
+    {
+        return view('live.pages.tests.ecg-test');
+    }
     /* Blogs */
     public function blogs()
     {

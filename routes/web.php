@@ -41,6 +41,9 @@ Route::get('/ctscan-test', [LICController::class, 'ctscan_test'])->name('live.pa
 Route::get('/ultrasound-test', [LICController::class, 'ultrasound_test'])->name('live.pages.tests.ultrasound-test');
 Route::get('/xrays', [LICController::class, 'xrays'])->name('live.pages.tests.xrays');
 Route::get('/intervention-radiology-test', [LICController::class, 'intervention_radiology_test'])->name('live.pages.tests.intervention-radiology-test');
+Route::get('/pathology', [LICController::class, 'pathology_test'])->name('live.pages.tests.pathology-test');
+Route::get('/echo', [LICController::class, 'echo_test'])->name('live.pages.tests.echo-test');
+Route::get('/ecg', [LICController::class, 'ecg_test'])->name('live.pages.tests.ecg-test');
 
 /* Blog Routes */
 Route::get('/blogs', [LICController::class, 'blogs'])->name('live.pages.blog.blogs');

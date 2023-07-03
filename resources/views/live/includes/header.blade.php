@@ -60,13 +60,13 @@
                                                     <a class="nav-item-link" href="{{route('live.pages.tests.intervention-radiology-test')}}">Intervention Radiology</a>
                                                 </li>
                                                 <li class="nav-item">
-                                                    <a class="nav-item-link" href="javascript:void(0)">Pathology</a>
+                                                    <a class="nav-item-link" href="{{route('live.pages.tests.pathology-test')}}">Pathology</a>
                                                 </li>
                                                 <li class="nav-item">
-                                                    <a class="nav-item-link" href="javascript:void(0)">ECHO</a>
+                                                    <a class="nav-item-link" href="{{route('live.pages.tests.echo-test')}}">Echo</a>
                                                 </li>
                                                 <li class="nav-item">
-                                                    <a class="nav-item-link" href="javascript:void(0)">ECG</a>
+                                                    <a class="nav-item-link" href="{{route('live.pages.tests.ecg-test')}}">Ecg</a>
                                                 </li>
                                             </ul>
                                         </div>
